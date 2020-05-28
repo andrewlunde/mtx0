@@ -1,0 +1,28 @@
+{
+  "generator-sap-partner-eng": {
+    "package_version": "0.1.04",
+    "project_name": "mtx0",
+    "app_name": "mtx",
+    "app_desc": "MTX",
+    "router_name": "mtx-app",
+    "domain_name": "cfapps.us10.hana.ondemand.com",
+    "router_path": "app",
+    "database_path": "db",
+    "services_path": "srv",
+    "uaa_res_name": "mtx-uaa",
+    "uaa_svc_name": "MTX_UAA",
+    "database_name": "mtx-hdb",
+    "db_schema_name": "MTX_DB",
+    "hdi_res_name": "mtx-hdi",
+    "hdi_svc_name": "MTX_HDI",
+    "services_name": "mtx-srv",
+    "services_api": "mtx_svc_api",
+    "services_be": "mtx_svc_be",
+    "services_route": "catalog",
+    "multitenant_enabled": true,
+    "reg_res_name": "mtx-reg",
+    "reg_svc_name": "MTX_REG",
+    "mgd_res_name": "mtx-mgd",
+    "mgd_svc_name": "MTX_MGD"
+  }
+}
