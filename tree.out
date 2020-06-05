@@ -1,0 +1,87 @@
+.
+├── README.md
+├── app
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── resources
+│   │   ├── favicon.ico
+│   │   └── index.html
+│   └── xs-app.json
+├── db
+│   ├── README.md
+│   ├── csv
+│   │   ├── my.bookshop-Authors.csv
+│   │   ├── my.bookshop-Books.csv
+│   │   └── my.bookshop-Orders.csv
+│   ├── data-model.cds
+│   ├── default-env.json
+│   ├── package-lock.json
+│   ├── package.json
+│   └── src
+│       └── gen
+│           ├── CatalogService.Authors.hdbview
+│           ├── CatalogService.Books.hdbview
+│           ├── CatalogService.Books_texts.hdbview
+│           ├── CatalogService.Countries.hdbview
+│           ├── CatalogService.Countries_texts.hdbview
+│           ├── CatalogService.Orders.hdbview
+│           ├── csv
+│           │   ├── my.bookshop-Authors.csv
+│           │   ├── my.bookshop-Authors.hdbtabledata
+│           │   ├── my.bookshop-Books.csv
+│           │   ├── my.bookshop-Books.hdbtabledata
+│           │   ├── my.bookshop-Orders.csv
+│           │   └── my.bookshop-Orders.hdbtabledata
+│           ├── localized.CatalogService.Authors.hdbview
+│           ├── localized.CatalogService.Books.hdbview
+│           ├── localized.CatalogService.Countries.hdbview
+│           ├── localized.CatalogService.Orders.hdbview
+│           ├── localized.my.bookshop.Authors.hdbview
+│           ├── localized.my.bookshop.Books.hdbview
+│           ├── localized.my.bookshop.Orders.hdbview
+│           ├── localized.sap.common.Countries.hdbview
+│           ├── my.bookshop.Authors.hdbtable
+│           ├── my.bookshop.Books.hdbtable
+│           ├── my.bookshop.Books_texts.hdbtable
+│           ├── my.bookshop.Orders.hdbtable
+│           ├── sap.common.Countries.hdbtable
+│           └── sap.common.Countries_texts.hdbtable
+├── mta.yaml
+├── mta_archives
+│   └── mtx0.mtar
+├── package-lock.json
+├── package.json
+├── srv
+│   ├── CDS-MTX.md
+│   ├── README.md
+│   ├── cat-service-auth.cds
+│   ├── cat-service.cds
+│   ├── default-env.json
+│   ├── gen
+│   │   ├── _i18n
+│   │   │   └── i18n.json
+│   │   ├── csn.json
+│   │   └── sdc
+│   │       ├── _i18n
+│   │       │   └── i18n.json
+│   │       ├── db
+│   │       │   ├── csv
+│   │       │   │   ├── my.bookshop-Authors.csv
+│   │       │   │   ├── my.bookshop-Books.csv
+│   │       │   │   └── my.bookshop-Orders.csv
+│   │       │   └── data-model.cds
+│   │       ├── node_modules
+│   │       │   └── @sap
+│   │       │       └── cds
+│   │       │           └── common.cds
+│   │       └── srv
+│   │           ├── cat-service-auth.cds
+│   │           └── cat-service.cds
+│   ├── package\ copy.json
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── provisioning.js
+│   └── server.js
+└── tree.out
+
+19 directories, 65 files

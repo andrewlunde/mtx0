@@ -37,6 +37,11 @@ cd mtx0 ; mkdir -p mta_archives ; mbt build -p=cf -t=mta_archives --mtar=mtx0.mt
 cf deploy mta_archives/mtx0.mtar -f
 ```
 
+# Subsequent Build+Deploy Command:
+```
+mbt build -p=cf -t=mta_archives --mtar=mtx0.mtar ; cf deploy mta_archives/mtx0.mtar -f
+```
+
 # Undeploy Command:
 ```
 cf undeploy mtx -f --delete-services

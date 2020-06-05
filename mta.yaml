@@ -39,6 +39,9 @@ modules:
    build-parameters:
       ignore: ["node_modules/"]
    path: srv
+   properties:
+      EXIT: 1  # required by deploy.js task to terminate
+      SAP_JWT_TRUST_ACL: [{"clientid":"*","identityzone":"sap-provisioning"}]  # Trust between server and SaaS Manager
    parameters:
       memory: 512M
       disk-quota: 512M
@@ -203,7 +206,7 @@ resources:
          description: 'mtx Multitenant App'
          category: 'mtx Category'
          appUrls:
-            onSubscription: https://${org}-${space}-mtx-app.cfapps.us10.hana.ondemand.com/mtx/v1/provisioning/tenant/{tenantId}
+            onSubscription: https://${org}-${space}-mtx-srv.cfapps.us10.hana.ondemand.com/mtx/v1/provisioning/tenant/{tenantId}
 
 
 
