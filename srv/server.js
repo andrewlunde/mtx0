@@ -86,12 +86,12 @@ if (!cds_mtx_way) {
   // serve cds-mtx APIs
   cds.mtx.in(app); 
   // serve application defined services: in combination with a CAP Java server, this won't appear here.
-  cds.serve('all');
+  cds.serve('all').in(app);
 
   // NEW WAY END
 
 }
 
-const PORT = process.env.PORT || 4004;
+const PORT = process.env.PORT || 4444;
 console.log("Listening on: " + PORT);
 app.listen(PORT);

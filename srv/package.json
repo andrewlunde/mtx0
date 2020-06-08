@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@sap/xsenv": "latest",
-    "@sap/xssec": "latest",
+    "@sap/xssec": "^2",
     "@sap/cds": "^3",
     "@sap/cds-mtx": "latest",
     "@sap/hdi-deploy": "^3",
@@ -28,14 +28,6 @@
   },
   "private": true,
   "cds": {
-    "build": {
-      "tasks": [
-        {
-          "for": "mtx",
-          "src": "."
-        }
-      ]
-    },
     "mtx": {
       "api": {
         "model": true,
@@ -66,8 +58,7 @@
       "db": {
         "kind": "hana",
         "model": [
-          "db",
-          "srv"
+          "gen"
         ],
         "multiTenant": true,
         "vcap": {
